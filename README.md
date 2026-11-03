@@ -9,6 +9,22 @@ The default visual treatment is ghost-mannequin product photography: empty garme
 
 > **Status: initial instruction release.** No model weights, API client or image-generation service are included. Image quality depends on the host model and reference evidence. No visual benchmark results are claimed.
 
+## Generated example gallery
+
+Original AI-generated concept examples made with the built-in image-generation tool on 2026-11-03. These illustrate the intended front/back presentation, not extraction accuracy against reference photographs. Native files are 1672 × 941 px (approximately 16:9), preserved without resizing or cropping. The exact backend model was not exposed by the tool. [Prompts and review notes](examples/README.md).
+
+### Ivory tailoring
+
+![Ivory tailoring](assets/examples/ivory-tailoring.png)
+
+### Black & gold asymmetry
+
+![Black & gold asymmetry](assets/examples/asymmetric-black-gold.png)
+
+### Powder-blue Rococo
+
+![Powder-blue Rococo](assets/examples/blue-rococo-dress.png)
+
 ## What makes it different
 
 | Capability | Behavior |
@@ -76,7 +92,7 @@ See the [editing brief and multilingual requests](references/prompt-template.md)
 
 A single photograph cannot verify hidden seams, closures, rear ornamentation or unseen lower garments. Those areas are proposals, even when photorealistic. For commercial product documentation, provide actual rear/detail references and verify against the physical garment.
 
-Fine text, complex lace, straps, asymmetric placement and cross-view geometry may still drift. The workflow requests visual checks and focused repairs; it does not guarantee perfect reconstruction. No reference or output images are bundled in this initial release.
+Fine text, complex lace, straps, asymmetric placement and cross-view geometry may still drift. The workflow requests visual checks and focused repairs; it does not guarantee perfect reconstruction. Original generated examples are included below; no source-photo extraction benchmark is claimed.
 
 ## Repository guide
 
