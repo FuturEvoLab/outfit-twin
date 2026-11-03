@@ -1,0 +1,4 @@
+interface:
+  display_name: "OutfitTwin"
+  short_description: "Reconstruct consistent front and back outfit views"
+  default_prompt: "Use $outfit-twin to reconstruct this outfit as a 16:9 front-and-back garment presentation."
